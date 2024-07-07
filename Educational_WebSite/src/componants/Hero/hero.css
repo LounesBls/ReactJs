@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+    .hero_Img img {
+        width: 35rem;
+    }
+}

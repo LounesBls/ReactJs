@@ -28,7 +28,7 @@ function Article() {
             <div className="details flex flex-col items-start lg:basis-1/2 my-4">
                 <strong className='dark:bg-gradient-to-r dark:text-[transparent] dark:bg-clip-text dark:from-dark-counterClrOne dark:via-dark-counterClrTwo dark:to-dark-counterClrThree'>why choose us</strong>
                 <h2 className='capitalize text-3xl font-bold py-2 dark:text-dark-headings-linksClr'>specialist in aviding clients on</h2>
-                <h3 className='text-2xl font-bold mb-6 dark:bg-gradient-to-r dark:text-[transparent] dark:bg-clip-text dark:from-dark-counterClrOne dark:via-dark-counterClrTwo dark:to-dark-counterClrThree'>financial challenges</h3>
+                <h3 className='text-2xl font-bold mb-6 dark:bg-gradient-to-r text-light-primary-countSectBg-btnPrimaryClr dark:text-[transparent] dark:bg-clip-text dark:from-dark-counterClrOne dark:via-dark-counterClrTwo dark:to-dark-counterClrThree'>financial challenges</h3>
                 <p className='text-md leading-8 dark:text-dark-paragraphs'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolores accusamus aspernatur nam maiores, error deleniti praesentium atque vel, eligendi minima fugiat reprehenderit Nihil, dolorem.</p>
                 
                 <div className='my-8'>

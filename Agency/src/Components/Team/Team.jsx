@@ -42,7 +42,9 @@ function Team() {
 
     return <section className='px-4 mb-16'>
         <div className="container mx-auto">
-            <h2 className='text-dark-headings-linksClr capitalize text-3xl font-bold text-center text-balance py-4 mb-8'>meet with <span className='dark:text-dark-primaryClr'>our team</span></h2>
+            <h2 className='text-[#000] dark:text-dark-headings-linksClr capitalize text-3xl font-bold text-center text-balance py-4 mb-8'>meet with 
+                
+                <span className='text-light-primary-countSectBg-btnPrimaryClr dark:text-dark-primaryClr'> our team</span></h2>
 
             <div className="team grid grid-cols-4 gap-8">
                 {

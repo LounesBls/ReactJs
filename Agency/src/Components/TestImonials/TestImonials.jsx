@@ -2,6 +2,7 @@ import React from 'react';
 import img1 from '../../assets/ava-1.jpg';
 import img2 from '../../assets/ava-2.jpg';
 import img3 from '../../assets/ava-3.jpg';
+import './testImonials.css'
 
 // Slider
 import "slick-carousel/slick/slick.css";
@@ -50,8 +51,9 @@ function TestImonials() {
     ];
 
     return <section className='px-8 sm:px-4 my-16'>
-        <div className="container mx-auto">
-            <h2 className='text-dark-headings-linksClr capitalize text-3xl font-bold text-center text-balance py-4 mb-8'>trusted by more than <span className='dark:text-dark-primaryClr'>5,000 customers</span></h2>
+        <div className="slider container mx-auto">
+            <h2 className='text-black dark:text-dark-headings-linksClr capitalize text-3xl font-bold text-center text-balance py-4 mb-8'>trusted by more than 
+                <span className='text-light-primary-countSectBg-btnPrimaryClr dark:text-dark-primaryClr'> 5,000 customers</span></h2>
 
             <Slider {...settings} className='md:w-4/6 md:mx-auto'>
                 {

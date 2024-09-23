@@ -1,0 +1,69 @@
+/* .sideBar ul li:not(:first-child)::before,
+.sideBar ul li:not(:first-child)::after {
+    content: "";
+    transition: .3s linear;
+} */
+
+.sideBar ul li:not(:first-child):hover::before,
+.sideBar ul li:not(:first-child):hover::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 2rem;
+    height: 3rem;
+    background-color: transparent;
+    transition-delay: 3s;
+    /* transition: linear .3s 850ms; */
+}
+
+.sideBar ul li:not(:first-child):hover::before {
+    top: -3rem;
+    box-shadow: 10px 1.3rem 0 10px #fff;
+    border-bottom-right-radius: 30px;
+}
+
+.sideBar ul li:not(:first-child):hover::after {
+    top: 3.15rem;
+    border-top-right-radius: 30px;
+    box-shadow: 10px -2rem 0 10px #fff;
+}
+
+.active {
+    background: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    a {
+        color: #2a2185;
+    }
+
+    svg {
+        fill: #000
+    }
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    right: -1px;
+    top: -3rem;
+    width: 2rem;
+    height: 3rem;
+    background-color: transparent;
+    box-shadow: 11px 1.3rem 0 10px #fff;
+    border-bottom-right-radius: 30px;
+    /* transition: linear .3s; */
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    right: -1px;
+    top: 3.1rem;
+    width: 2rem;
+    height: 3rem;
+    background-color: transparent;
+    box-shadow: 11px -2rem 0 10px #fff;
+    border-top-right-radius: 30px;
+    /* transition: linear .3s; */
+}

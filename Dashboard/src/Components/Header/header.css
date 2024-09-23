@@ -1,0 +1,9 @@
+.activeSide {
+    width: 95px !important;
+    transition: .3s;
+}
+
+.activeNav {
+    width: calc(100% - 95px) !important;
+    transition: .3s;
+}

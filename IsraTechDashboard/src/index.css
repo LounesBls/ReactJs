@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+    transition: padding .3s linear;
+}
+
+#root {
+    height: 100vh;
+    transition: height .3s linear;
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding: 1.5rem 3rem;
+        transition: padding .3s linear;
+    }
+
+    #root {
+        height: calc(100vh - 3rem);
+        transition: height .3s linear;
+    }
+}
+
+li.activeClr {
+    color: rgb(21 128 61);
+}
+
+li.activeClr svg {
+    fill: rgb(21 128 61);
+}

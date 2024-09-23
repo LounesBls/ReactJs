@@ -1,0 +1,5 @@
+.slider button,
+.slider button:hover {
+    background: rgb(221, 221, 221);
+    border-radius: 50px;
+}

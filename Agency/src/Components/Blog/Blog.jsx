@@ -30,7 +30,7 @@ function Blog() {
     
     return <section className='px-4 pb-10 bg-[#effcff] dark:bg-[transparent]' id='blog'>
         <div className="container mx-auto">
-            <h2 className='text-2xl font-bold text-center py-8 dark:text-dark-headings-linksClr'>Let's have a look from our <span className='dark:text-dark-primaryClr'>recent blog</span></h2>
+            <h2 className='text-2xl font-bold text-center py-8 dark:text-dark-headings-linksClr'>Let's have a look from our <span className='text-light-primary-countSectBg-btnPrimaryClr dark:text-dark-primaryClr'>recent blog</span></h2>
 
             <div className='grid grid-cols-4 lg:grid-cols-3 gap-8 mt-8' id='blogs'>
                 {
